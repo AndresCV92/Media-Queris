@@ -93,7 +93,7 @@ footer{
     }
 
     .galeria{
-        grid-template-columns: 60%;
+        grid-template-columns: 1fr;
         gap:10px ;
     }
 
@@ -116,6 +116,15 @@ footer{
         height: 100vh;
         max-width: max-content;
         
+    }
+    .galeria{
+       display: grid;
+       grid-template-columns: 20% 20% 20%;
+       grid-template-rows: auto auto auto;
+       justify-content: space-evenly;
+       align-items: center;
+       gap:10px;
+    
     }
 
 
